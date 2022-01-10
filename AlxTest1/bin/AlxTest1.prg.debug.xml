@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="D:\upenn\Garmin\Garmin_watch_face\AlxTest1\manifest.xml"/>
+<pcToLineNum>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1App.mc" id="1" lineNum="7" parent="globals/AlxTest1App" pc="268435456" symbol="initialize"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1App.mc" id="1" lineNum="8" parent="globals/AlxTest1App" pc="268435460" symbol="initialize"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1App.mc" id="2" lineNum="12" parent="globals/AlxTest1App" pc="268435479" symbol="onStart"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1App.mc" id="3" lineNum="16" parent="globals/AlxTest1App" pc="268435484" symbol="onStop"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1App.mc" id="4" lineNum="20" parent="globals/AlxTest1App" pc="268435489" symbol="getInitialView"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1App.mc" id="4" lineNum="21" parent="globals/AlxTest1App" pc="268435493" symbol="getInitialView"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1App.mc" id="5" lineNum="5" parent="globals/AlxTest1App" pc="268437460" symbol="&lt;init&gt;"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1App.mc" id="5" lineNum="5" parent="globals/AlxTest1App" pc="268437460" symbol="&lt;init&gt;"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1App.mc" id="6" lineNum="26" parent="globals" pc="268435531" symbol="getApp"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1App.mc" id="6" lineNum="27" parent="globals" pc="268435543" symbol="getApp"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="8" lineNum="17" parent="globals/AlxTest1View" pc="268435560" symbol="initialize"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="8" lineNum="18" parent="globals/AlxTest1View" pc="268435564" symbol="initialize"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="9" lineNum="22" parent="globals/AlxTest1View" pc="268435583" symbol="onLayout"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="9" lineNum="23" parent="globals/AlxTest1View" pc="268435587" symbol="onLayout"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="9" lineNum="25" parent="globals/AlxTest1View" pc="268435624" symbol="onLayout"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="9" lineNum="26" parent="globals/AlxTest1View" pc="268435649" symbol="onLayout"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="10" lineNum="32" parent="globals/AlxTest1View" pc="268435675" symbol="onShow"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="36" parent="globals/AlxTest1View" pc="268435680" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="38" parent="globals/AlxTest1View" pc="268435684" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="40" parent="globals/AlxTest1View" pc="268435701" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="41" parent="globals/AlxTest1View" pc="268435733" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="42" parent="globals/AlxTest1View" pc="268435749" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="44" parent="globals/AlxTest1View" pc="268435772" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="45" parent="globals/AlxTest1View" pc="268435840" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="46" parent="globals/AlxTest1View" pc="268435864" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="47" parent="globals/AlxTest1View" pc="268435878" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="48" parent="globals/AlxTest1View" pc="268435902" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="51" parent="globals/AlxTest1View" pc="268435916" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="52" parent="globals/AlxTest1View" pc="268435939" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="55" parent="globals/AlxTest1View" pc="268435991" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="56" parent="globals/AlxTest1View" pc="268436035" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="59" parent="globals/AlxTest1View" pc="268436139" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="60" parent="globals/AlxTest1View" pc="268436156" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="61" parent="globals/AlxTest1View" pc="268436166" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="64" parent="globals/AlxTest1View" pc="268436218" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="65" parent="globals/AlxTest1View" pc="268436235" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="66" parent="globals/AlxTest1View" pc="268436245" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="76" parent="globals/AlxTest1View" pc="268436297" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="77" parent="globals/AlxTest1View" pc="268436301" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="78" parent="globals/AlxTest1View" pc="268436311" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="79" parent="globals/AlxTest1View" pc="268436321" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="81" parent="globals/AlxTest1View" pc="268436325" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="82" parent="globals/AlxTest1View" pc="268436349" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="83" parent="globals/AlxTest1View" pc="268436373" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="84" parent="globals/AlxTest1View" pc="268436387" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="86" parent="globals/AlxTest1View" pc="268436401" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="87" parent="globals/AlxTest1View" pc="268436425" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="88" parent="globals/AlxTest1View" pc="268436449" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="89" parent="globals/AlxTest1View" pc="268436463" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="11" lineNum="94" parent="globals/AlxTest1View" pc="268436477" symbol="onUpdate"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="12" lineNum="100" parent="globals/AlxTest1View" pc="268436498" symbol="onHide"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="13" lineNum="104" parent="globals/AlxTest1View" pc="268436503" symbol="onExitSleep"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="14" lineNum="108" parent="globals/AlxTest1View" pc="268436508" symbol="onEnterSleep"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="15" lineNum="12" parent="globals/AlxTest1View" pc="268437479" symbol="&lt;init&gt;"/>
+<entry filename="D:\\upenn\\Garmin\\Garmin_watch_face\\AlxTest1\\source\\AlxTest1View.mc" id="15" lineNum="12" parent="globals/AlxTest1View" pc="268437479" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="17" lineNum="2" parent="globals/Rez/Drawables" pc="268437454" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="18" lineNum="6" parent="globals/Rez/Fonts" pc="268437456" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="19" lineNum="8" parent="globals/Rez/JsonData" pc="268437458" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="20" lineNum="17" parent="globals/Rez/Layouts" pc="268436513" symbol="WatchFace"/>
+<entry filename="Rez" id="20" lineNum="19" parent="globals/Rez/Layouts" pc="268436525" symbol="WatchFace"/>
+<entry filename="Rez" id="20" lineNum="20" parent="globals/Rez/Layouts" pc="268436652" symbol="WatchFace"/>
+<entry filename="Rez" id="20" lineNum="21" parent="globals/Rez/Layouts" pc="268436779" symbol="WatchFace"/>
+<entry filename="Rez" id="20" lineNum="22" parent="globals/Rez/Layouts" pc="268436942" symbol="WatchFace"/>
+<entry filename="Rez" id="20" lineNum="23" parent="globals/Rez/Layouts" pc="268437112" symbol="WatchFace"/>
+<entry filename="Rez" id="20" lineNum="24" parent="globals/Rez/Layouts" pc="268437239" symbol="WatchFace"/>
+<entry filename="Rez" id="20" lineNum="26" parent="globals/Rez/Layouts" pc="268437366" symbol="WatchFace"/>
+<entry filename="Rez" id="21" lineNum="10" parent="globals/Rez/Layouts" pc="268437457" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="22" lineNum="31" parent="globals/Rez/Menus" pc="268437455" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="23" lineNum="33" parent="globals/Rez/Strings" pc="268437459" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="24" lineNum="1" parent="globals/Rez" pc="268437435" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="24" lineNum="1" parent="globals/Rez" pc="268437435" symbol="&lt;init&gt;"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="4" module="true" symbol="globals/Rez/Menus"/>
+<entry id="8388924" module="true" symbol="Gregorian"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="14" symbol="AppName"/>
+<entry id="8388633" module="true" symbol="ActivityMonitor"/>
+<entry id="8" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="8388631" module="true" symbol="Activity"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389348" symbol="font"/>
+<entry id="12" module="true" symbol="Menus"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry id="9" object="true" symbol="AlxTest1App"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="8389349" symbol="justification"/>
+<entry field="true" id="16" symbol="cY"/>
+<entry field="true" id="15" symbol="cX"/>
+<entry id="7" module="true" symbol="globals/Rez/JsonData"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="10" object="true" symbol="AlxTest1View"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="13" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8389347" symbol="color"/>
+<entry id="11" module="true" symbol="Layouts"/>
+<entry id="8388642" module="true" symbol="Position"/>
+<entry id="5" module="true" symbol="globals/Rez/Fonts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8388635" module="true" symbol="Application"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268435483" name="state" stackId="1" startPc="268435479"/>
+<entry arg="true" endPc="268435488" name="state" stackId="1" startPc="268435484"/>
+<entry arg="true" endPc="268435674" name="dc" stackId="1" startPc="268435583"/>
+<entry endPc="268436496" name="hour" stackId="4" startPc="268435684"/>
+<entry endPc="268436496" name="timeString" stackId="5" startPc="268435684"/>
+<entry endPc="268436496" name="txtTopLeft" stackId="18" startPc="268435684"/>
+<entry endPc="268436496" name="batteryString" stackId="9" startPc="268435684"/>
+<entry endPc="268436496" name="altitude" stackId="16" startPc="268435684"/>
+<entry endPc="268436496" name="lblBottomLeft" stackId="24" startPc="268435684"/>
+<entry endPc="268436496" name="lblTopRight" stackId="23" startPc="268435684"/>
+<entry endPc="268436496" name="txtBottomRight" stackId="21" startPc="268435684"/>
+<entry endPc="268436496" name="battery" stackId="8" startPc="268435684"/>
+<entry endPc="268436496" name="view" stackId="6" startPc="268435684"/>
+<entry endPc="268436496" name="stepsString" stackId="14" startPc="268435684"/>
+<entry endPc="268436496" name="clockTime" stackId="2" startPc="268435684"/>
+<entry endPc="268436496" name="lblBottomRight" stackId="25" startPc="268435684"/>
+<entry endPc="268436496" name="elevation" stackId="17" startPc="268435684"/>
+<entry endPc="268436496" name="txtTopRight" stackId="19" startPc="268435684"/>
+<entry endPc="268436496" name="steps" stackId="13" startPc="268435684"/>
+<entry endPc="268436496" name="pmLabel" stackId="7" startPc="268435684"/>
+<entry endPc="268436496" name="pm" stackId="3" startPc="268435684"/>
+<entry endPc="268436496" name="info" stackId="12" startPc="268435684"/>
+<entry endPc="268436496" name="today" stackId="10" startPc="268435684"/>
+<entry endPc="268436496" name="dateString" stackId="11" startPc="268435684"/>
+<entry endPc="268436496" name="txtBottomLeft" stackId="20" startPc="268435684"/>
+<entry endPc="268436496" name="lblTopLeft" stackId="22" startPc="268435684"/>
+<entry endPc="268436496" name="infoA" stackId="15" startPc="268435684"/>
+<entry arg="true" endPc="268436497" name="dc" stackId="1" startPc="268435680"/>
+<entry endPc="268437432" name="rez_cmp_local_text_TimeLabel" stackId="4" startPc="268436525"/>
+<entry endPc="268437432" name="rez_cmp_local_text_PmLabel" stackId="5" startPc="268436525"/>
+<entry endPc="268437432" name="rez_cmp_local_text_TopRightLabel" stackId="3" startPc="268436525"/>
+<entry endPc="268437432" name="rez_cmp_local_text_BottomRightLabel" stackId="7" startPc="268436525"/>
+<entry endPc="268437432" name="rez_cmp_local_text_BottomLeftLabel" stackId="6" startPc="268436525"/>
+<entry endPc="268437432" name="rez_cmp_local_text_TopLeftLabel" stackId="2" startPc="268436525"/>
+<entry arg="true" endPc="268437433" name="dc" stackId="1" startPc="268436513"/>
+</localVars>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/Rez" offset="158" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/Rez/Drawables" offset="237" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="276" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="307" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="338" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="377" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="408" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/AlxTest1App" offset="447" parentId="globals" symbolId="AlxTest1App" type="class"/>
+<dataEntry label="globals/AlxTest1View" offset="518" parentId="globals" symbolId="AlxTest1View" type="class"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435478" name="initialize" parent="AlxTest1App" startPc="268435456">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435483" name="onStart" parent="AlxTest1App" startPc="268435479">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435488" name="onStop" parent="AlxTest1App" startPc="268435484">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435530" name="getInitialView" parent="AlxTest1App" startPc="268435489">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268437478" name="&lt;init&gt;" parent="AlxTest1App" startPc="268437460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435559" name="getApp" startPc="268435531">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435582" name="initialize" parent="AlxTest1View" startPc="268435560">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435674" name="onLayout" parent="AlxTest1View" startPc="268435583">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435679" name="onShow" parent="AlxTest1View" startPc="268435675">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436497" name="onUpdate" parent="AlxTest1View" startPc="268435680">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436502" name="onHide" parent="AlxTest1View" startPc="268436498">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436507" name="onExitSleep" parent="AlxTest1View" startPc="268436503">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436512" name="onEnterSleep" parent="AlxTest1View" startPc="268436508">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268437497" name="&lt;init&gt;" parent="AlxTest1View" startPc="268437479">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268437454" name="&lt;init&gt;" parent="Drawables" startPc="268437454">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268437456" name="&lt;init&gt;" parent="Fonts" startPc="268437456">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268437458" name="&lt;init&gt;" parent="JsonData" startPc="268437458">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437433" name="WatchFace" parent="Layouts" startPc="268436513">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268437457" name="&lt;init&gt;" parent="Layouts" startPc="268437457">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268437455" name="&lt;init&gt;" parent="Menus" startPc="268437455">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268437459" name="&lt;init&gt;" parent="Strings" startPc="268437459">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268437453" name="&lt;init&gt;" parent="Rez" startPc="268437435">
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>

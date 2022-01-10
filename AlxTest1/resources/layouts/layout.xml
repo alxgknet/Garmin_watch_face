@@ -1,0 +1,10 @@
+<layout id="WatchFace">
+    <label id="TopLeftLabel" x="left" y="top" font="Graphics.FONT_LARGE" color="Graphics.COLOR_YELLOW" />
+    <label id="TopRightLabel" x="right" y="top" font="Graphics.FONT_SYSTEM_MEDIUM" color="Graphics.COLOR_YELLOW" />
+
+    <label id="TimeLabel" x="center" y="center" font="Graphics.FONT_SYSTEM_NUMBER_THAI_HOT" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_LT_GRAY" />
+    <label id="PmLabel" x="right" y="center" font="Graphics.FONT_SYSTEM_MEDIUM" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_LT_GRAY" />
+
+    <label id="BottomLeftLabel" x="left" y="bottom" font="Graphics.FONT_SYSTEM_MEDIUM"  color="Graphics.COLOR_YELLOW" />
+    <label id="BottomRightLabel" x="right" y="bottom" font="Graphics.FONT_SYSTEM_MEDIUM"  color="Graphics.COLOR_YELLOW" />
+</layout>
