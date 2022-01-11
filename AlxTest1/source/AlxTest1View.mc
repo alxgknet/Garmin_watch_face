@@ -63,7 +63,7 @@ class AlxTest1View extends WatchUi.WatchFace {
         //elevation
         var infoA = Activity.getActivityInfo();
         var altitude = infoA.altitude;
-        var elevation = Lang.format (" alt: $1$", [altitude.format("%d")]);
+        var elevation = Lang.format ("$1$", [altitude.format("%d")]);
 
         /*if (latitude != null && longitude != null)
         {
@@ -74,8 +74,8 @@ class AlxTest1View extends WatchUi.WatchFace {
 
         //outut
         var txtTopLeft = dateString;
-        var txtTopRight = "bt:" + batteryString;
-        var txtBottomLeft = "steps:"+stepsString;
+        var txtTopRight = batteryString;
+        var txtBottomLeft = stepsString;
         var txtBottomRight = elevation;
 
         var lblTopLeft = View.findDrawableById("TopLeftLabel") as Text;
