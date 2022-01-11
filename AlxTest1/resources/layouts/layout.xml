@@ -7,8 +7,12 @@
     <label id="TimeLabel" x="center" y="center" font="Graphics.FONT_NUMBER_THAI_HOT" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_LT_GRAY" />
     <label id="PmLabel" x="right" y="center" font="Graphics.FONT_SYSTEM_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_LT_GRAY" />
 
-    <bitmap id="steps" x="left" y="bottom" filename="../drawables/steps.png" />
-    <label id="BottomLeftLabel" x="30" y="bottom" font="Graphics.FONT_LARGE"  color="Graphics.COLOR_WHITE"  />
-    <bitmap id="altitude" x="110" y="bottom" filename="../drawables/altitude.png" />
-    <label id="BottomRightLabel" x="right" y="bottom" font="Graphics.FONT_LARGE"  color="Graphics.COLOR_WHITE"  />
+
+    <bitmap id="altitude" x="left" y="bottom" filename="../drawables/altitude.png" />
+    <label id="BottomRightLabel" x="30" y="bottom" font="Graphics.FONT_LARGE"  color="Graphics.COLOR_WHITE"  />
+
+    <bitmap id="steps" x="110" y="bottom" filename="../drawables/steps.png" />
+    <label id="BottomLeftLabel" x="right" y="bottom" font="Graphics.FONT_LARGE"  color="Graphics.COLOR_WHITE"  />
+
+
 </layout>

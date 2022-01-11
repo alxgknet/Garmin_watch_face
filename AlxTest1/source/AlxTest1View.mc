@@ -58,6 +58,8 @@ class AlxTest1View extends WatchUi.WatchFace {
         // Steps
 		var info = ActivityMonitor.getInfo();
 		var steps = info.steps;
+        var stepGoal = info.stepGoal;
+		//var stepsString = Lang.format ("$1$ of $2$", [steps.format("%d"),stepGoal.format("%d")]);
 		var stepsString = Lang.format ("$1$", [steps.format("%d")]);
 
         //elevation
@@ -82,7 +84,60 @@ class AlxTest1View extends WatchUi.WatchFace {
         var lblTopRight = View.findDrawableById("TopRightLabel") as Text;
         lblTopLeft.setText(txtTopLeft);
         lblTopRight.setText(txtTopRight);        
-        
+
+        //test
+        // battery = 50;
+        // steps = 2000;
+        // stepGoal = 5000;
+        // altitude = 2000;
+
+/*
+        //set bitmaps
+        var bmp_battery = View.findDrawableById("battery") as Bitmap;
+        if (battery <= 40)
+        {
+            bmp_battery.setBitmap(Toybox.WatchUi.loadResource(Rez.Drawables.battery));      
+        }  
+        else if (battery > 40 && battery < 60)
+        {
+            bmp_battery.setBitmap(Toybox.WatchUi.loadResource(Rez.Drawables.battery1));
+        }
+        else
+        {
+            bmp_battery.setBitmap(Toybox.WatchUi.loadResource(Rez.Drawables.battery2));
+        }
+
+        //set steps
+        var bmp_steps = View.findDrawableById("steps") as Bitmap;
+        if (steps <= stepGoal*0.3)
+        {
+            bmp_steps.setBitmap(Toybox.WatchUi.loadResource(Rez.Drawables.steps));      
+        }  
+        else if (battery > stepGoal*0.3 && battery < stepGoal*0.7)
+        {
+            bmp_steps.setBitmap(Toybox.WatchUi.loadResource(Rez.Drawables.steps1));
+        }
+        else
+        {
+            bmp_steps.setBitmap(Toybox.WatchUi.loadResource(Rez.Drawables.steps2));
+        }        
+
+
+        //set altitude
+        var bmp_altitude = View.findDrawableById("altitude") as Bitmap;
+        if (altitude <= 100)
+        {
+            bmp_altitude.setBitmap(Toybox.WatchUi.loadResource(Rez.Drawables.altitude));      
+        }  
+        else if (altitude > 100 && battery < 1000)
+        {
+            bmp_altitude.setBitmap(Toybox.WatchUi.loadResource(Rez.Drawables.altitude1));
+        }
+        else
+        {
+            bmp_altitude.setBitmap(Toybox.WatchUi.loadResource(Rez.Drawables.altitude2));
+        }   
+*/
         var lblBottomLeft = View.findDrawableById("BottomLeftLabel") as Text;
         var lblBottomRight = View.findDrawableById("BottomRightLabel") as Text;
         lblBottomLeft.setText(txtBottomLeft);
@@ -93,6 +148,7 @@ class AlxTest1View extends WatchUi.WatchFace {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
     }
+    
 
     // Called when this View is removed from the screen. Save the
     // state of this View here. This includes freeing resources from

@@ -3,4 +3,13 @@
     <bitmap id="battery" filename="battery.png" />
     <bitmap id="altitude" filename="altitude.png" />
     <bitmap id="steps" filename="steps.png" />
+
+    <bitmap id="battery1" filename="battery1.png" />
+    <bitmap id="altitude1" filename="altitude1.png" />
+    <bitmap id="steps1" filename="steps1.png" />    
+
+    <bitmap id="battery2" filename="battery2.png" />
+    <bitmap id="altitude2" filename="altitude2.png" />
+    <bitmap id="steps2" filename="steps2.png" />    
+
 </drawables>
