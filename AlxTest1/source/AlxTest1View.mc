@@ -83,7 +83,7 @@ class AlxTest1View extends WatchUi.WatchFace {
         // steps = 2000;
         // stepGoal = 5000;
         // altitude = 2000;
-/* 
+ 
         var img_battery,img_battery1,img_battery2;
         var img_steps,img_steps1,img_steps2;
         var img_altitude,img_altitude1,img_altitude2,img_altitude0;
@@ -91,18 +91,18 @@ class AlxTest1View extends WatchUi.WatchFace {
        try
         {
 
-            img_battery = Toybox.WatchUi.loadResource(Rez.Drawables.battery);
-            img_battery1 = Toybox.WatchUi.loadResource(Rez.Drawables.battery1);
-            img_battery2 = Toybox.WatchUi.loadResource(Rez.Drawables.battery2);
+            img_battery = Toybox.WatchUi.loadResource(Rez.Drawables.battery) as BitmapResource;
+            img_battery1 = Toybox.WatchUi.loadResource(Rez.Drawables.battery1) as BitmapResource;
+            img_battery2 = Toybox.WatchUi.loadResource(Rez.Drawables.battery2) as BitmapResource;
 
-            img_steps = Toybox.WatchUi.loadResource(Rez.Drawables.steps);
-            img_steps1 = Toybox.WatchUi.loadResource(Rez.Drawables.steps1);
-            img_steps2 = Toybox.WatchUi.loadResource(Rez.Drawables.steps2);
+            img_steps = Toybox.WatchUi.loadResource(Rez.Drawables.steps) as BitmapResource;
+            img_steps1 = Toybox.WatchUi.loadResource(Rez.Drawables.steps1) as BitmapResource;
+            img_steps2 = Toybox.WatchUi.loadResource(Rez.Drawables.steps2) as BitmapResource;
 
-            img_altitude0 = Toybox.WatchUi.loadResource(Rez.Drawables.altitude0);
-            img_altitude = Toybox.WatchUi.loadResource(Rez.Drawables.altitude);
-            img_altitude1 = Toybox.WatchUi.loadResource(Rez.Drawables.altitude1);
-            img_altitude2 = Toybox.WatchUi.loadResource(Rez.Drawables.altitude2);
+            img_altitude0 = Toybox.WatchUi.loadResource(Rez.Drawables.altitude0) as BitmapResource;
+            img_altitude = Toybox.WatchUi.loadResource(Rez.Drawables.altitude) as BitmapResource;
+            img_altitude1 = Toybox.WatchUi.loadResource(Rez.Drawables.altitude1) as BitmapResource;
+            img_altitude2 = Toybox.WatchUi.loadResource(Rez.Drawables.altitude2) as BitmapResource;
 
 
 
@@ -168,7 +168,7 @@ class AlxTest1View extends WatchUi.WatchFace {
         {
 
         }
-*/
+/**/
 
 
         var lblBottomLeft = View.findDrawableById("BottomLeftLabel") as Text;

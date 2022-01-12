@@ -2,7 +2,7 @@
     <bitmap id="LauncherIcon" filename="launcher_icon.png" />
     <bitmap id="battery" filename="battery.png" />
     <bitmap id="altitude" filename="altitude.png" />
-    <bitmap id="altitude" filename="altitude0.png" />
+    <bitmap id="altitude0" filename="altitude0.png" />
     <bitmap id="steps" filename="steps.png" />
 
     <bitmap id="battery1" filename="battery1.png" />
