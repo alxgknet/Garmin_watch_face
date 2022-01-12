@@ -66,13 +66,7 @@ class AlxTest1View extends WatchUi.WatchFace {
         var altitude = infoA.altitude;
         var elevation = Lang.format ("$1$", [altitude.format("%d")]);
 
-        /*if (latitude != null && longitude != null)
-        {
-        
-            elevation = elevation + Lang.format ("lat:$1$ lon:$2$", [myLocation[0].format("%05d"),[myLocation[1].format("%05d")]);    
-        }*/
-
-    
+   
         //outut
         var txtTopLeft = dateString;
         var txtTopRight = batteryString;

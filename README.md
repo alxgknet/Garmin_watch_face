@@ -14,5 +14,4 @@ It was also interesting to try a new programing language Monkey C. During this e
 
 I used Visual Studio Code as an IDE.
 
-
-Here is the
+![alt text](https://github.com/alxgknet/Garmin_watch_face/blob/main/face.jpg?raw=true)
