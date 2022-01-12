@@ -7,7 +7,7 @@
     -->
     
 
-    <iq:application id="5ba042d7-746c-42cd-b5d6-a3a2452909d3" type="watchface" name="@Strings.AppName" entry="AlxTest1App" launcherIcon="@Drawables.LauncherIcon" minSdkVersion="1.4.0" version="1.0.6">
+    <iq:application id="5ba042d7-746c-42cd-b5d6-a3a2452909d3" type="watchface" name="@Strings.AppName" entry="AlxTest1App" launcherIcon="@Drawables.LauncherIcon" minSdkVersion="1.4.0" version="1.1.0">
         <iq:products>
             <iq:product id="vivoactive"/>
         </iq:products>

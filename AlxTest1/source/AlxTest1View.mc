@@ -12,7 +12,6 @@ using Toybox.Activity;
 class AlxTest1View extends WatchUi.WatchFace {
 
 	var cX, cY;
-
    
     function initialize() {
         WatchFace.initialize();
@@ -37,7 +36,7 @@ class AlxTest1View extends WatchUi.WatchFace {
         // Get and show the current time
         var clockTime = System.getClockTime();
 
-        var pm = (clockTime.hour <= 12) ? "am" : "pm";
+        var pm = (clockTime.hour >= 12) ? "pm" : "am";
         var hour = clockTime.hour % 12;
         hour = (hour == 0) ? 12 : hour; 
 
@@ -73,7 +72,7 @@ class AlxTest1View extends WatchUi.WatchFace {
             elevation = elevation + Lang.format ("lat:$1$ lon:$2$", [myLocation[0].format("%05d"),[myLocation[1].format("%05d")]);    
         }*/
 
-
+    
         //outut
         var txtTopLeft = dateString;
         var txtTopRight = batteryString;
@@ -90,54 +89,94 @@ class AlxTest1View extends WatchUi.WatchFace {
         // steps = 2000;
         // stepGoal = 5000;
         // altitude = 2000;
+/* 
+        var img_battery,img_battery1,img_battery2;
+        var img_steps,img_steps1,img_steps2;
+        var img_altitude,img_altitude1,img_altitude2,img_altitude0;
 
-/*
-        //set bitmaps
-        var bmp_battery = View.findDrawableById("battery") as Bitmap;
-        if (battery <= 40)
+       try
         {
-            bmp_battery.setBitmap(Toybox.WatchUi.loadResource(Rez.Drawables.battery));      
-        }  
-        else if (battery > 40 && battery < 60)
-        {
-            bmp_battery.setBitmap(Toybox.WatchUi.loadResource(Rez.Drawables.battery1));
-        }
-        else
-        {
-            bmp_battery.setBitmap(Toybox.WatchUi.loadResource(Rez.Drawables.battery2));
-        }
 
-        //set steps
-        var bmp_steps = View.findDrawableById("steps") as Bitmap;
-        if (steps <= stepGoal*0.3)
-        {
-            bmp_steps.setBitmap(Toybox.WatchUi.loadResource(Rez.Drawables.steps));      
-        }  
-        else if (battery > stepGoal*0.3 && battery < stepGoal*0.7)
-        {
-            bmp_steps.setBitmap(Toybox.WatchUi.loadResource(Rez.Drawables.steps1));
-        }
-        else
-        {
-            bmp_steps.setBitmap(Toybox.WatchUi.loadResource(Rez.Drawables.steps2));
-        }        
+            img_battery = Toybox.WatchUi.loadResource(Rez.Drawables.battery);
+            img_battery1 = Toybox.WatchUi.loadResource(Rez.Drawables.battery1);
+            img_battery2 = Toybox.WatchUi.loadResource(Rez.Drawables.battery2);
+
+            img_steps = Toybox.WatchUi.loadResource(Rez.Drawables.steps);
+            img_steps1 = Toybox.WatchUi.loadResource(Rez.Drawables.steps1);
+            img_steps2 = Toybox.WatchUi.loadResource(Rez.Drawables.steps2);
+
+            img_altitude0 = Toybox.WatchUi.loadResource(Rez.Drawables.altitude0);
+            img_altitude = Toybox.WatchUi.loadResource(Rez.Drawables.altitude);
+            img_altitude1 = Toybox.WatchUi.loadResource(Rez.Drawables.altitude1);
+            img_altitude2 = Toybox.WatchUi.loadResource(Rez.Drawables.altitude2);
 
 
-        //set altitude
-        var bmp_altitude = View.findDrawableById("altitude") as Bitmap;
-        if (altitude <= 100)
-        {
-            bmp_altitude.setBitmap(Toybox.WatchUi.loadResource(Rez.Drawables.altitude));      
-        }  
-        else if (altitude > 100 && battery < 1000)
-        {
-            bmp_altitude.setBitmap(Toybox.WatchUi.loadResource(Rez.Drawables.altitude1));
+
+            //set bitmaps
+            var bmp_battery = View.findDrawableById("battery");
+            if (bmp_battery != null && img_battery != null)
+            {
+                if (battery <= 40)
+                {
+                    bmp_battery.setBitmap(img_battery);      
+                }  
+                else if (battery > 40 && battery < 60)
+                {
+                    bmp_battery.setBitmap(img_battery1);
+                }
+                else
+                {
+                    bmp_battery.setBitmap(img_battery2);
+                }
+            }
+
+            //set steps
+            var bmp_steps = View.findDrawableById("steps");
+            if (bmp_steps != null && img_steps != null)
+            {
+                if (steps <= stepGoal*0.3)
+                {
+                    bmp_steps.setBitmap(img_steps);      
+                }  
+                else if (battery > stepGoal*0.3 && battery < stepGoal*0.7)
+                {
+                    bmp_steps.setBitmap(img_steps1);
+                }
+                else
+                {
+                    bmp_steps.setBitmap(img_steps2);
+                }        
+            }
+
+            //set altitude
+            var bmp_altitude = View.findDrawableById("altitude");
+            if (bmp_altitude != null && img_altitude0 != null)
+            {
+                if (altitude <= 0)
+                {
+                    bmp_altitude.setBitmap(img_altitude0);      
+                }  
+                else if (altitude > 0 && battery <= 100)
+                {
+                    bmp_altitude.setBitmap(img_altitude);      
+                }  
+                else if (altitude > 100 && battery < 1000)
+                {
+                    bmp_altitude.setBitmap(img_altitude1);
+                }
+                else
+                {
+                    bmp_altitude.setBitmap(img_altitude2);
+                }   
+            }
         }
-        else
+        catch(x)
         {
-            bmp_altitude.setBitmap(Toybox.WatchUi.loadResource(Rez.Drawables.altitude2));
-        }   
+
+        }
 */
+
+
         var lblBottomLeft = View.findDrawableById("BottomLeftLabel") as Text;
         var lblBottomRight = View.findDrawableById("BottomRightLabel") as Text;
         lblBottomLeft.setText(txtBottomLeft);
